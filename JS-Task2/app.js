@@ -15,6 +15,9 @@ console.log(factorialize(10));
 console.log(factorialize(1));
 /// 5
 console.log(greet());
+//
+const car = new Car('Model Y', 'Tesla', 2020);
+console.log(`Make: ${car.make}, model: ${car.model}, year: ${car.year}`);
 
 function sumEvenNumbers(array) {
     if (!array.length || !array) {
@@ -64,4 +67,10 @@ function greet() {
         age: 30,
     }
     return 'Greeting ' + pesron.name;
+}
+
+function Car(make, model, year) {
+    this.make = make;
+    this.model = model;
+    this.year = year;
 }
