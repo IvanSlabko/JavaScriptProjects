@@ -12,6 +12,9 @@ console.log(concatArrays(testArr, stringArr));
 /// 5
 const sum = (num1, num2) => num1 + num2;
 console.log(sum(2,5));
+/// 6
+console.log(restSum(1,2,3));
+console.log(restSum(1,2,3,4,5));
 /// 7
 varScope();
 console.log(a);
@@ -38,6 +41,13 @@ function sortStrings(array) {
 
 function concatArrays(array1, array2) {
     return array1.concat(array2);
+}
+
+function restSum(...args) {
+    let total = 0;
+    args.forEach((arg) => {
+        total += arg;
+    })
 }
 
 function varScope() {
