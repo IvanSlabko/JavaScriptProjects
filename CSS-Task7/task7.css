@@ -1,0 +1,63 @@
+p.highlight {
+    background-color: yellow;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: red;
+}
+
+p {
+    font-size: 14px;
+}
+
+.special {
+
+}
+
+.special p {
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: blue;
+}
+
+.custom {
+    border: 10px solid red;
+    padding: 10px;
+    margin: 0 auto;
+    width: 60%;
+}
+
+.floating img {
+    float: left;
+}
+
+.floating p {
+    clear: both;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+header {
+    width: 100%;
+    border: 2px solid pink;
+}
+
+aside {
+    box-sizing: border-box;
+    width: 30%;
+    border: 2px solid pink;
+}
+
+main {
+    box-sizing: border-box;
+    width: 70%;
+    border: 2px solid pink;
+}
