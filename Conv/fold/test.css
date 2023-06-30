@@ -1,0 +1,30 @@
+.first {
+    color: blue;
+}
+
+p:first-of-type {
+    display: inline-block;
+    color: red;
+}
+
+p:last-of-type {
+    color: green;
+}
+
+p:hover {
+    color: black;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+div {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}

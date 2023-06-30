@@ -40,8 +40,12 @@ h1 {
 }
 
 body {
-    display: flex;
     margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
 }
 
@@ -54,6 +58,10 @@ aside {
     box-sizing: border-box;
     width: 30%;
     border: 2px solid pink;
+}
+
+section {
+    display: flex;
 }
 
 main {
